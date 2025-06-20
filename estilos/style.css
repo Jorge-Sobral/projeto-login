@@ -8,13 +8,15 @@
     Laranjasso: #EA5C1E
     Vermelho: #D92929
 */
+@font-face {
+    font-family: 'Okami';
+    src: url('../Fonts/Okami.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 * {
-    @font-face {
-            font-family: 'Okami';
-            src: url('fonts/Okami.otf') format('opentype');
-            font-weight: normal;
-            font-style: normal;
+    font-family: Okami;
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
