@@ -10,7 +10,11 @@
 */
 
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    @font-face {
+            font-family: 'Okami';
+            src: url('fonts/Okami.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
